@@ -1,0 +1,95 @@
+body{
+  margin-top: 80px;
+}
+.navbar {
+  box-shadow: 2px 2px 5px #3292a6;
+  opacity: 0.9;
+  background: #fff;
+}
+.navbar .navbar-nav .nav-link{
+  font-size:22px;
+  color: #252525;
+
+  padding-right: 28px;
+
+}
+.navbar .navbar-nav .nav-link:hover{
+  color: #3292a6;
+}
+
+/*home-section*/
+
+
+
+#home-section {
+  background: url("../images/home.jpg")no-repeat center top;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 600px;
+  position: relative;
+  padding: 60px 0;
+}
+
+#home-section .primary-overlay {
+  background: rgba(50, 146, 156, 0.7);
+  min-height: 600px;
+  position: absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+}
+
+/* subcribe*/
+
+#sub{
+  background: #252525;
+  opacity: 0.9;
+}
+ /*meet-the-authors*/
+ #meet-the-authors .head{
+   padding: 50px 0px;
+   text-align:center;
+ }
+ #meet-the-authors img{
+   margin-top: -50px;
+ }
+ #meet-the-authors .icon i{
+   font-size: 25px;
+   padding:10px;
+
+ }
+  #meet-the-authors .card :hover{
+    background:#3292a6;
+    color: #fff;
+}
+  #meet-the-authors .card:hover .fa {
+   color: #fff; }
+/*--contact*/
+.btn{
+  background: #3292a6;
+}
+.btn:hover{
+  background: #297889;
+}
+/*footer*/
+.footer{
+  background:#3292a6;
+  text-align: center;
+  padding: 50px 0px;
+  color: #FFEAD5;
+  font-size: 20px;
+}
+.footer a{
+
+  color: #FFEAD5;
+
+}
+@media (max-width: 576px) {
+  #home-section h1 {
+    font-size: 4rem;
+  }
+  #home-section {
+    min-height: 500px;
+
+}
